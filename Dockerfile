@@ -13,4 +13,4 @@ ADD course_ws /opt/course_ws
 WORKDIR /opt/course_ws
 
 RUN /opt/ros/noetic/env.sh catkin_make
-CMD devel/env.sh rosrun MeArm MecArm.py
+CMD devel/env.sh rosrun MeArm inverse.py
